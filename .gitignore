@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+_pycache_/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+
+# Environment variables
+*.env
+
+# Logs and database files
+*.log
+*.sqlite3
+
+# IDE and editor files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# macOS-specific files
+.DS_Store
+
+# Python egg cache
+*.egg-info/
+.eggs/
+
+# Test coverage files
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Build and distribution files
+build/
+dist/
+*.egg
+MANIFEST
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Heroku files
+.env.
+.terraform/
+*.override
+*.json

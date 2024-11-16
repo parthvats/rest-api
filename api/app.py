@@ -44,7 +44,7 @@ def create_recipe():
         return jsonify({
             "message": "Recipe creation failed!",
             "required": "title, making_time, serves, ingredients, cost"
-        }), 400
+        }), 200
 
     new_recipe = Recipe(
         title=data['title'],
@@ -70,7 +70,7 @@ def create_recipe():
     return jsonify({
         "message": "Recipe successfully created!",
         "recipe": [recipe_data]
-    }), 201
+    }), 200
 
 # GET /recipes - Retrieve all recipes
 @app.route('/recipes', methods=['GET'])

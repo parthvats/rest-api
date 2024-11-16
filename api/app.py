@@ -156,5 +156,4 @@ def delete_recipe(id):
     db.session.commit()
     return jsonify({"message": "Recipe successfully removed!"}), 200
 
-if __name__ == '__main__':
-    app.run(debug=True)
+app = app

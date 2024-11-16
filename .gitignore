@@ -48,4 +48,3 @@ MANIFEST
 .env.
 .terraform/
 *.override
-*.json
